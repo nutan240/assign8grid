@@ -2,4 +2,51 @@
     margin: 0%;
     padding: 0%;
     }
+    .container{
+        display: grid;
+        grid-template-columns: 15vw 83vw ;
+    }
+    .navbar{
+        background-color: #d0edd3;
+        height: 100vh;
+        width: 15vw;
+    }
+    .main{
+        width: 80vw;
+    }
+    .header{
+        padding-left: 13px;
+        line-height: 25px;
+        height: 10vh;
+        background-color:  #7ee232;
+        width: 84vw;
+    }
+    .main1{
+        height: 80vh;
+        display: grid;
+        grid-template-columns:70vw 15vw ;
+        grid-template-rows: 80vh 9vh;
+    
+    }
+    .article{
+        padding-left: 13px;
+        line-height: 25px;
+        background-color: #ffffff ;
+        float: right;
+        width: 80vw;
+    }
+    .aside{
+        background-color:  #f2fada;
+        float: left;
+        width: 15vw;
+        height: 90vh;
+        z-index: 1;
+    }
+    .footer{
+        
+        height: 10vh;
+        padding-left: 13px;
+        line-height: 25px;
+        width: 69.2vw;
+    }
     
